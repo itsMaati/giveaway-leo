@@ -1,8 +1,6 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import aleoLogo from "./assets/aleo.svg";
+
 import "./App.css";
-import helloworld_program from "../helloworld/build/main.aleo?raw";
 import { AleoWorker } from "./workers/AleoWorker";
 import { WalletMultiButton } from "@demox-labs/aleo-wallet-adapter-reactui";
 import { useWallet } from '@demox-labs/aleo-wallet-adapter-react';
